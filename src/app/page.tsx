@@ -39,7 +39,6 @@ export default function Home() {
     }
   };
 
-  // 7. Construindo a Interface
   return (
     <main className="flex items-center justify-center min-h-screen bg-gray-900 text-white">
       <div className="w-full max-w-2xl p-8 space-y-6 bg-gray-800 rounded-xl shadow-lg">
@@ -78,6 +77,51 @@ export default function Home() {
             </div>
           </div>
         )}
+        <section className="mt-16 max-w-4xl mx-auto">
+          <h2 className="text-3xl font-bold text-center text-white mb-8">
+            Entendendo Seu Endereço de IP
+          </h2>
+
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-xl font-semibold text-white mb-2">
+                O que é um Endereço de IP?
+              </h3>
+              <p className="text-gray-400 leading-relaxed">
+                Um endereço de Protocolo de Internet (IP) é um rótulo numérico
+                único atribuído a cada dispositivo conectado a uma rede de
+                computadores que usa a Internet para comunicação. Pense nele
+                como o endereço digital da sua casa na internet, permitindo que
+                dados sejam enviados e recebidos por você.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-white mb-2">
+                As informações de geolocalização são precisas?
+              </h3>
+              <p className="text-gray-400 leading-relaxed">
+                A geolocalização por IP é uma estimativa. Ela identifica a
+                cidade, a região e o país de onde sua conexão está vindo, com
+                base nos registros do seu provedor de internet. Ela não revela
+                seu endereço exato, rua ou localização em tempo real, garantindo
+                sua privacidade.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-white mb-2">
+                Este site armazena meus dados?
+              </h3>
+              <p className="text-gray-400 leading-relaxed">
+                Não. Sua privacidade é fundamental. Esta ferramenta faz uma
+                consulta em tempo real para descobrir suas informações e as
+                exibe apenas para você, na sua tela. Nenhum dado sobre seu IP ou
+                sua localização é armazenado em nossos servidores.
+              </p>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
   );
