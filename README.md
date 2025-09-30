@@ -1,36 +1,137 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 KitWebs - What is My IP?
 
-## Getting Started
+A simple and fast online tool to discover your public IP address and geolocation information.
 
-First, run the development server:
+**➡️ Live Demo: [https://ip.kitwebs.com.br](https://ip.kitwebs.com.br)**
+
+---
+
+## ✨ Features
+
+- Displays the user's public IP address.
+- Shows geolocation data (city and country).
+- Identifies the Internet Service Provider (ISP).
+- One-click button to copy the IP address.
+
+---
+
+## 🛠️ Tech Stack
+
+This project was built using the following technologies:
+
+- **[Next.js](https://nextjs.org/)** - React Framework for production.
+- **[React](https://reactjs.org/)** - A JavaScript library for building user interfaces.
+- **[TypeScript](https://www.typescriptlang.org/)** - A typed superset of JavaScript.
+- **[Tailwind CSS](https://tailwindcss.com/)** - A utility-first CSS framework.
+- **[ipinfo.io](https://ipinfo.io/)** - API for IP address and geolocation data.
+- **[Vercel](https://vercel.com/)** - Deployment and hosting platform.
+
+---
+
+## 🚀 Getting Started
+
+Follow the steps below to run this project locally.
+
+**1. Clone the repository**
+
+```bash
+git clone [https://github.com/gfranca91/kitwebs-what-is-my-ip.git](https://github.com/gfranca91/kitwebs-what-is-my-ip.git)
+```
+
+**2. Navigate to the project folder**
+
+```bash
+cd kitwebs-what-is-my-ip
+```
+
+**3. Install dependencies**
+
+```bash
+npm install
+```
+
+**4. Start the development server**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📄 License
 
-## Learn More
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+# 🚀 KitWebs - Qual é o Meu IP?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Uma ferramenta online simples e rápida para descobrir seu endereço de IP público e informações de geolocalização.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**➡️ Acessar o Site: [https://ip.kitwebs.com.br](https://ip.kitwebs.com.br)**
+
+---
+
+## ✨ Funcionalidades
+
+- Exibe o endereço de IP público do usuário.
+- Mostra dados de geolocalização (cidade e país).
+- Identifica o provedor de internet (ISP).
+- Botão para copiar o endereço de IP com um clique.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+Este projeto foi construído utilizando as seguintes tecnologias:
+
+- **[Next.js](https://nextjs.org/)** - Framework React para produção.
+- **[React](https://reactjs.org/)** - Biblioteca para construção de interfaces.
+- **[TypeScript](https://www.typescriptlang.org/)** - Superset do JavaScript que adiciona tipagem estática.
+- **[Tailwind CSS](https://tailwindcss.com/)** - Framework de CSS utility-first.
+- **[ipinfo.io](https://ipinfo.io/)** - API para os dados de IP e geolocalização.
+- **[Vercel](https://vercel.com/)** - Plataforma de deploy e hospedagem.
+
+---
+
+## 🚀 Como Rodar o Projeto
+
+Siga os passos abaixo para rodar este projeto na sua máquina local.
+
+**1. Clone o repositório**
+
+```bash
+git clone [https://github.com/gfranca91/kitwebs-what-is-my-ip.git](https://github.com/gfranca91/kitwebs-what-is-my-ip.git)
+```
+
+**2. Navegue até a pasta do projeto**
+
+```bash
+cd kitwebs-what-is-my-ip
+```
+
+**3. Instale as dependências**
+
+```bash
+npm install
+```
+
+**4. Inicie o servidor de desenvolvimento**
+
+```bash
+npm run dev
+```
+
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
